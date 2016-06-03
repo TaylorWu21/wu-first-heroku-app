@@ -34,6 +34,8 @@ gem 'will_paginate', '~> 3.1'
 # gem 'capistrano-rails', group: :development
 group :production do
 	gem 'puma', '~> 3.4'
+	#Heroku Gem for static assets / smooth deploys
+	gem 'rails_12factor'
 end
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
